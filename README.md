@@ -1,2 +1,2 @@
 # python-flask
-CircleCI Python-Flask example
+CircleCI Python-Flask demo

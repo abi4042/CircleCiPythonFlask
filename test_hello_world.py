@@ -7,7 +7,7 @@ class TestHelloWorld(unittest.TestCase):
         self.app = hello_world.app.test_client()
         self.app.testing = True
 
-    def test_status_code(self):
+    def test_status(self):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
     
